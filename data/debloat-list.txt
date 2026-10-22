@@ -1,0 +1,43 @@
+﻿# JMGO P2 (JmGO_P2) projector, Android 4.4.4 (SDK 19), JmGO OS 1.2.11, userdebug/test-keys
+# 鍧氭灉 P2 绮剧畝娓呭崟 - 鍙鐢紝涓嶅嵏杞斤紱鐢?tools\jmgo.ps1 restore 涓€閿仮澶嶃€?#
+# Apply:   .\tools\jmgo.ps1 connect -Host 192.168.10.122
+#          .\tools\jmgo.ps1 disable -List lists\jmgo-p2.txt -DryRun
+#          .\tools\jmgo.ps1 disable -List lists\jmgo-p2.txt
+# Undo:    .\tools\jmgo.ps1 restore            (榛樿鐢ㄦ渶鏂扮殑璁板綍)
+#
+# 淇濈暀锛堜笉瑕佸姞杩涜繖涓枃浠讹級锛?#   com.jmgo.launcher          Home / 鏁翠釜 JmGO 妗岄潰
+#   com.jmgo.setting           璁剧疆
+#   com.jmgo.systemapi         绯荤粺 API锛岃妗岄潰鍜岃缃皟鐢?#   com.jmgo.moive / music / imagebrowser / webbrowser   鍐呯疆鎾斁鍣紙鐢ㄦ埛淇濈暀锛?#   com.hpplay.happyplay.aw.new                          涔愭挱鎶曞睆锛堢敤鎴蜂繚鐣欙級
+#   com.xiaobaifile.tv / .xbplayer                       灏忕櫧鏂囦欢绠＄悊鍣?鎾斁鍣紙鐢ㄦ埛淇濈暀锛?#   com.softwinner.update                                绯荤粺鏇存柊 OTA锛堢敤鎴蜂繚鐣欙級
+#   com.softwinner.tvremoteserver                        鎵嬫満閬ユ帶鏈嶅姟
+#   com.jianguo.server          JMGO 鏍稿績鏈嶅姟锛圓IDL锛夛紝鏉冮檺鏋侀珮锛屽姩瀹冮闄╁ぇ锛屽厛涓嶅姩
+#   com.mstar.* / com.broadcom.* / com.android.phone     杈撳叆婧愩€佽摑鐗欍€佺數璇濇爤绛夌郴缁熷簳搴?
+# ---- 鍘傚晢棰勮 / 鍚庡彴鎺ㄩ€侊紙鐢ㄦ埛鏄庣‘涓嶇敤锛?---
+com.wukongtv.wkhelper                 # 鎮熺┖閬ユ帶锛氬紑鏈鸿嚜鍚?+ 鎺ㄩ€侊紝甯搁┗ 8.7MB
+com.wukongtv.wkhelper.remoteplugin2   # 鎮熺┖閬ユ帶鎻掍欢
+com.shafa.market                      # 娌欏彂绠″搴旂敤甯傚満锛氬甫鑵捐淇￠附鎺ㄩ€?com.tencent.karaoketv                 # 鍏ㄦ皯K姝?TV
+com.android.chrome                    # 鐢ㄦ埛纭涓嶇敤锛?data 瀹夎锛?
+# ---- 棰勮浣嗕粠涓嶄娇鐢ㄧ殑宸ュ叿 ----
+com.dataviz.docstogo                  # Documents To Go 鍔炲叕濂椾欢
+com.android.mcast                     # MMCast 婕旂ず绋嬪簭锛堝父椹伙級
+tvtests.com.mstar.android.tv          # 宸ュ巶娴嬭瘯绋嬪簭
+com.svox.pico                         # Pico TTS 璇煶寮曟搸
+
+# ---- AOSP 閲岀數瑙嗕笂鐢ㄤ笉鍒扮殑缁勪欢 ----
+com.android.videoeditor               # 瑙嗛缂栬緫鍣?com.android.printspooler              # 鎵撳嵃鏈嶅姟锛堝父椹伙級
+com.android.quicksearchbox            # 鍏ㄥ眬鎼滅储妗?com.android.helpers                   # 濡傚瓨鍦紝绌哄３
+com.android.htmlviewer                # HTML 鏌ョ湅鍣?com.android.pacprocessor              # 浠ｇ悊鑷姩閰嶇疆
+com.android.proxyhandler              # 浠ｇ悊澶勭悊
+com.android.vpndialogs                # VPN 瀵硅瘽妗?com.android.backupconfirm             # 澶囦唤纭
+com.android.sharedstoragebackup       # 鍏变韩瀛樺偍澶囦唤
+com.android.providers.calendar        # 鏃ュ巻瀛樺偍锛堝父椹?3.1MB锛?com.android.providers.userdictionary  # 鐢ㄦ埛璇嶅吀
+com.android.smspush                   # WAP 鎺ㄩ€侊紙甯搁┗锛?
+# ---- 灞忎繚 / 澹佺焊鍖咃紙鏈満灞忎繚鎸囧悜涓€涓笉瀛樺湪鐨?deskclock锛屾湰鏉ュ氨鏄潖鐨勶級----
+com.android.dreams.basic
+com.android.dreams.phototable
+com.android.magicsmoke
+com.android.noisefield
+com.android.phasebeam
+com.android.musicvis
+com.android.wallpaper.holospiral
+com.android.wallpapercropper

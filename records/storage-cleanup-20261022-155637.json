@@ -1,0 +1,97 @@
+﻿{
+    "date":  "2026-10-22 15:56:37",
+    "items":  [
+                  {
+                      "path":  "/mnt/sdcard/yfnet/cache",
+                      "what":  "YfNet CDN SDK 网络缓存（2018-2023，已停写3年）",
+                      "risk":  "cache",
+                      "kb":  1027456
+                  },
+                  {
+                      "path":  "/mnt/sdcard/Download/WKHelper",
+                      "what":  "悟空遥控助手安装包缓存（已禁用的应用）",
+                      "risk":  "残件",
+                      "kb":  93024
+                  },
+                  {
+                      "path":  "/mnt/sdcard/shafa",
+                      "what":  "沙发管家 download/image 缓存（已禁用）",
+                      "risk":  "残件缓存",
+                      "kb":  65664
+                  },
+                  {
+                      "path":  "/mnt/sdcard/Download/hpplay",
+                      "what":  "乐播投屏出厂演示视频(5个)（用户已确认）",
+                      "risk":  "不可恢复",
+                      "kb":  39744
+                  },
+                  {
+                      "path":  "/mnt/sdcard/dbUpdate",
+                      "what":  "升级器更新包残件",
+                      "risk":  "残件",
+                      "kb":  8032
+                  },
+                  {
+                      "path":  "/mnt/sdcard/pluginplayer-release-1.56.0.48119.apk",
+                      "what":  "出厂预置插件播放器APK",
+                      "risk":  "残件",
+                      "kb":  9632
+                  },
+                  {
+                      "path":  "/mnt/sdcard/DuoleStore",
+                      "what":  "多乐商店残件",
+                      "risk":  "残件",
+                      "kb":  5664
+                  },
+                  {
+                      "path":  "/mnt/sdcard/lovetv",
+                      "what":  "lovetv 商城残件",
+                      "risk":  "残件",
+                      "kb":  5664
+                  },
+                  {
+                      "path":  "/mnt/sdcard/tvmgrserver",
+                      "what":  "电视管家服务残件",
+                      "risk":  "残件",
+                      "kb":  5696
+                  },
+                  {
+                      "path":  "/mnt/sdcard/Test.apk",
+                      "what":  "出厂测试APK",
+                      "risk":  "残件",
+                      "kb":  1120
+                  },
+                  {
+                      "path":  "/mnt/sdcard/qcache",
+                      "what":  "商城缓存残件",
+                      "risk":  "残件",
+                      "kb":  1248
+                  },
+                  {
+                      "path":  "/mnt/sdcard/yunshang",
+                      "what":  "云上商城残件",
+                      "risk":  "残件",
+                      "kb":  1216
+                  },
+                  {
+                      "path":  "/mnt/sdcard/log_disk_cache",
+                      "what":  "应用日志缓存",
+                      "risk":  "logs",
+                      "kb":  2752
+                  },
+                  {
+                      "path":  "/data/anr",
+                      "what":  "ANR记录",
+                      "risk":  "logs",
+                      "kb":  248
+                  },
+                  {
+                      "path":  "/data/tombstones",
+                      "what":  "崩溃记录",
+                      "risk":  "logs",
+                      "kb":  156
+                  }
+              ],
+    "device":  "JmGO_P2 (192.168.10.122:5555)",
+    "note":  "删除为不可恢复操作；/mnt/sdcard/yfnet/cache 保留目录本身"
+}

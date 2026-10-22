@@ -1,0 +1,30 @@
+﻿# 坚果 P2 存储清理审计 (2026-10-22)
+设备: JmGO_P2 (192.168.10.122:5555) / Android 4.4.4
+
+## 变化
+内置存储 (/mnt/sdcard): 已用 1.4G -> 175.1M (释放约 1.22G), 空闲 5.8G -> 7.0G
+/data: 889.9M 已用 / 3.6G 空闲 (不变, 本来就 80% 空闲)
+
+## 已删除 (路径 -> 大小)
+/mnt/sdcard/yfnet/cache               1.0G   YfNet CDN SDK 网络缓存碎片 (最后写入 2023-10-22, 已停用3年; 仅清空, 保留目录)
+/mnt/sdcard/Download/WKHelper         93M    悟空遥控助手安装包缓存 (对应应用已 disabled)
+/mnt/sdcard/shafa                     65M    沙发管家缓存 (应用已 disabled)
+/mnt/sdcard/Download/hpplay           39M    乐播出厂演示视频 x5 (用户确认; 不可恢复)
+/mnt/sdcard/dbUpdate                  8M     升级器更新包残件
+/mnt/sdcard/pluginplayer-release-*.apk 9.4M  出厂插件播放器 APK
+/mnt/sdcard/DuoleStore                5.5M   多乐商店残件
+/mnt/sdcard/lovetv                    5.5M   lovetv 商城残件
+/mnt/sdcard/tvmgrserver               5.6M   电视管家服务残件
+/mnt/sdcard/Test.apk                  1.1M   出厂测试 APK
+/mnt/sdcard/qcache                    1.2M   商城缓存
+/mnt/sdcard/yunshang                  1.2M   云上商城残件
+/mnt/sdcard/log_disk_cache            2.7M   日志缓存
+/data/anr/* /data/tombstones/*       ~0.4M   ANR/崩溃记录
+
+## 有意保留 (归属不明确/涉及保留的应用)
+hpplay (43M, 乐播投屏-用户保留) / com.hpplay.happyplay.aw (30M, 旧版乐播的数据) /
+vrom (12M) / com.booslink.Wihome_videoplayer3 (12M) / vcinema / tvblack / VideoPlayer /
+backup / system / Android / Pictures
+
+## 结论
+存储本身不紧张 (/data 原本就 80% 空闲); 1.4G 的内置存储占用里 88% 是死缓存与残件, 已全部清掉, 现内置存储仅用 175M.
